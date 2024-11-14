@@ -6,7 +6,7 @@ dependencies:
   - python=3.11
   - xeus-python
   - ipycanvas
-  - numpy
+  - numpy==1.26.0
   - scipy
   - matplotlib
   - scikit-learn
