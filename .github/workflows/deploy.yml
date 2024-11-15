@@ -24,6 +24,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md notebooks
+          cp dist/fig_code_test-0.1.0-py3-none-any.whl notebooks/
           jupyter lite build --contents notebooks --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
