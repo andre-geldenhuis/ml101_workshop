@@ -34,3 +34,4 @@ matplotlib
 scikit-learn
 pandas 
 requests
+ipywidgets
