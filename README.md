@@ -62,3 +62,12 @@ jupyter lab
 Then navigate the directory structure.
 The notebooks are under the directory `notebooks`.
 Click on `Index.ipynb` to get started.
+
+
+## Building a custom wheel of the fig_code for jupyterlite pyodide
+
+```bash
+python3 -m pip install build
+python3 -m build
+git add dist/fig_code_test-x.x.x-py3-none-any.whl -f
+```
